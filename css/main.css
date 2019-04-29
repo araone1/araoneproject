@@ -1,0 +1,43 @@
+/* 초기화 */
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+.hidden{position: absolute; left: -99999px;}
+img{border:0;}
+body{font-family:'NanumMyeongjo'; font-size: 14px; background: #fff;}
+@font-face {font-family:'NanumMyeongjo';
+            src:url("../font/NanumMyeongjo.ttf"),
+                url("../font/NanumMyeongjo.eot"),
+                url("../font/NanumMyeongjo.woff");
+                font-weight: 100; font-style: normal;}
+
+    html,body{height: 100%; }
+    #Wrap{height: 100%; width: 100%; text-align: center;}
+    h2{font-weight: 100; letter-spacing: 0.2em; display: inline-block; margin-top: 140px; font-size: 50px; color: #fff;}
+    h3{font-weight: 100; font-size: 40px; color: #686f77; display: inline-block;}
+    h4{font-weight: 100; font-size: 30px; color: #686f77;}
+    h5{font-weight: 100; font-size: 23px; color: #8e959c;}
+
+    .main{margin: 0 auto; width:100%; height: 100%; background: url("../images/main2.png"); background-attachment: fixed; }
+    .main h2{padding: 20px 60px; border: 1.5px solid #fff;text-shadow: 0 0 15px #1f1b1b; }/*안다겸 가야금 독주회*/
+      #navi {z-index: 1; text-align: left; position: fixed; top: 140px; left: 80px;} /*네비 #8e959c*/
+      #navi a{ font-size: 20px; line-height: 39px; color: #999;} /*8e959c*/
+
+    .intro{height: 80%; background: #e5edf5; }/*#e5edf5*/
+    .intro h3{padding: 160px 0 100px 0; } /*25현금 독주곡, 시간의 화살*/
+    .intro h4{padding-bottom: 80px; }  /*한번 떠나간 화살은 되돌릴 수 없듯이 이미..*/
+    .intro h5{line-height: 1.6;}  /*이 곡은 상주아리랑*/
+
+    .info{position: relative; text-align: left; height: 80%; background: #ffff;}
+    .info h3{color: #3e676f; padding: 120px 0 100px 15%; position: relative; line-height: 1.5;}
+
+    .info h4{ color: #3e676f; position: absolute; left: 0; top: 400px; line-height: 2; margin-left: 15%; display: inline-block;}
+    .info img{ float: right; position: absolute; right: 15%; margin-top: 110px;}
+
+    .reply{height: 50%; background:#7cb7c3; }
+    .reply h3{color: #fff;padding: 80px 0; }
+    .reply img{display: block; margin: 0 auto;}
+
+
+    .notice{height: 100%; background: url("../images/back.png");}
+    .notice h3{padding: 140px 0; }
